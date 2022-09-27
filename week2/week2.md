@@ -52,3 +52,17 @@ DELETE /members/{id} HTTP Method를 통해 행위를 표현
 |DELETE|리소스 삭제|
 
 ### 3. Functional Programming
+**함수형 프로그래밍(Functional Programming)**
+자료처리를 하나의 함수로 취급하고 상태와 가변 데이터를 멀리하는 프로그래밍 패러다임
+
+**함수형 프로그래밍 특징**
+1. 순수 함수(Pure function)
+    - 같은 입력 값이라면, 같은 결과 값을 반환
+2. 함성 함수(Function composition)
+    - 둘 이상의 함수를 결합하는 프로세스
+3. 공유 상태 피하기(Avoid shared state)
+    - 상태 공유를 피해 함수 호출의 타이밍과 순서와 무관하게 일정한 결과를 출력
+4. 상태 변경 피하기(Avoid mutating state)
+    - 객체의 불변성
+5. side effects 피하기(Avoid side effects)
+    - 호출 된 함수밖의 상태를 변경하지 
